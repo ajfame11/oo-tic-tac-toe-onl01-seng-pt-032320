@@ -36,4 +36,7 @@ class TicTacToe
     if index == "X" || index == "O"
       turn += 1
     end
+  end
+end
+
 end
