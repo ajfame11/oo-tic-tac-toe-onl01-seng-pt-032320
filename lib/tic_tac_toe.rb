@@ -69,7 +69,7 @@ class TicTacToe
       index_2 = combo[2]
 
       position_1 = @board[combo[0]]
-      position_2 = @board[index_1]
+      position_2 = @board[combo[1]]
       position_3 = @board[index_2]
 
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
